@@ -29,9 +29,6 @@ const Sidebar = () => {
               </li>
             );
           })}
-          <li onClick={closeSidebar}>
-            <Link to="/checkout">checkout</Link>
-          </li>
         </ul>
         <CartButtons />
       </aside>
